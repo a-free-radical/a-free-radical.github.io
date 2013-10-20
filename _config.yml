@@ -1,11 +1,15 @@
-name: Your New Jekyll Site
 markdown: redcarpet
 pygments: true
 
-title : Free Radical
-tagline: Travel log of Drew Hornbein
-author :
-  name : Drew Hornbein
-  email : hello@dhornbein.com
-  github : dhornbein
-  twitter : hornbein
+title: Free Radical
+tagline: The travel log of Drew Hornbein
+author:
+  name: Drew Hornbein
+  email: hello@dhornbein.com
+  github: dhornbein
+  twitter: hornbein
+
+production_url: http://freeradical.biz
+
+page:
+  layout: default
