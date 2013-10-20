@@ -1,0 +1,11 @@
+name: Your New Jekyll Site
+markdown: redcarpet
+pygments: true
+
+title : Free Radical
+tagline: Travel log of Drew Hornbein
+author :
+  name : Drew Hornbein
+  email : hello@dhornbein.com
+  github : dhornbein
+  twitter : hornbein
