@@ -4184,6 +4184,8 @@ header[role="header"] {
     color: #BBB; }
   header[role="header"] .tagline {
     color: #666; }
+  header[role="header"] nav {
+    display: none; }
   header[role="header"] nav li {
     display: inline-block;
     list-style: none;
