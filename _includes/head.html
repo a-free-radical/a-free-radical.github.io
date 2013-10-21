@@ -26,8 +26,15 @@
   -->
 
     <!-- atom & rss feed -->
-    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
-    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+    <!-- <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed"> -->
+
+    <!-- Open Graph Data -->
+    <meta property="og:image" content="http://graph.facebook.com/hornbein?type=large"/>
+    <meta property="og:title" content="{{ page.title }} :: {{ site.title }}"/>
+    <meta property="og:url" content="{{ page.url }}"/>
+    <meta property="og:site_name" content="{{ site.title }}: {{ site.tagline }}"/>
+    <meta property="og:type" content="blog"/>
 
   </head>
   <body>

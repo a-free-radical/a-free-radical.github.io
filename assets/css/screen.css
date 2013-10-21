@@ -4220,6 +4220,11 @@ header[role="header"] {
     display: block;
     margin: 0 auto; }
 
+#home article.post {
+  border-bottom: 1px solid #DDD;
+  margin-bottom: 3em;
+  padding-bottom: 1.5em; }
+
 footer[role="footer"] {
   background-color: #DFDFDF;
   border-top: 1px solid #AAA;
