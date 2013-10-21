@@ -46,7 +46,14 @@ header[role="header"] {
 	}
 
 	.post-content {
-		p { font-size: 1.25em; }
+		p {
+			font-size: 1.25em;
+
+			img {
+				display: block;
+				margin:0 auto;
+			}
+		}
 	}
 }
 
