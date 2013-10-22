@@ -7,7 +7,7 @@ location: Blacksburg, VA, USA
 feature: /images/IMG_20131021_nightandday.png
 ---
 
-I'm sitting in CZ's kitchen sipping on tea. There is a smokey smell coming from the wood burning stove and the dew sparkles on the fauna outside.
+I'm sitting in CZ's kitchen sipping on tea. There is a smokey smell coming from the wood burning stove and the dew sparkles on the flora outside.
 
 Yesterday the bus from Knoxville was an hour late and would have put me in Roanoke - an hour's drive from my final destination - at about 2:20 am. I coordinated with CZ and she agreed to brave the highway and pick me up, no matter what the time. At the next stop I spoke with the bus driver about dropping me off at an earlier point on the road, where I passed much closer to my destination. She said that the bus used to stop there, but didn't anymore. There was nothing I or she could do it would seem.
 
