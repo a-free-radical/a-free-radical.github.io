@@ -1,4 +1,19 @@
 /*/////////////////////////////////////////////////
+Font
+/////////////////////////////////////////////////*/
+
+@font-face {
+  font-family: 'norwester';
+  src: url(../fonts/norwester.eot);
+  src: url(../fonts/norwester.eot?#iefix) format("embedded-opentype"), url(../fonts/norwester.woff) format("woff"), url(../fonts/norwester.ttf) format("truetype");
+}
+
+h1,	h2, h3, h4, h5, h6 {
+	font-family: "norwester", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+/*/////////////////////////////////////////////////
 Header
 /////////////////////////////////////////////////*/
 
@@ -20,10 +35,10 @@ header[role="header"] {
 	}
 
 	.title {
-		font-family: "Helvetica Neue", Helvetica, sans-serif;
+		color: #BBB;
 		font-weight: 100;
 		letter-spacing: 0.1em;
-		color: #BBB;
+		text-transform: uppercase;
 	}
 
 	.tagline {
@@ -64,14 +79,29 @@ Posts
 	}
 
 	.post-content {
-		p {
+		p,
+		section,
+		aside {
 			font-size: 1.25em;
 
 			img {
 				display: block;
 				margin:0 auto;
 			}
+
+			a img {
+				border: 1px solid #DDf;
+				padding: 3px;
+
+				&:hover {
+					background-color: #DDf;
+				}
+			}
 		}
+	}
+
+	.map-box {
+		text-align: center;
 	}
 }
 
@@ -85,6 +115,14 @@ Home page
 		margin-bottom: 3em;
 		padding-bottom:1.5em;
 	}
+}
+
+/*/////////////////////////////////////////////////
+Panorama
+/////////////////////////////////////////////////*/
+
+#panorama {
+	img { max-width: inherit; }
 }
 
 /*/////////////////////////////////////////////////

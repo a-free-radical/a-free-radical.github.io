@@ -4173,6 +4173,14 @@ table {
     max-width: 800px; }
 
 /* Each individual part that can be added in */
+@font-face {
+  font-family: 'norwester';
+  src: url(../fonts/norwester.eot);
+  src: url(../fonts/norwester.eot?#iefix) format("embedded-opentype"), url(../fonts/norwester.woff) format("woff"), url(../fonts/norwester.ttf) format("truetype"); }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "norwester", "Helvetica Neue", Helvetica, sans-serif; }
+
 header[role="header"] {
   background: #fafcfa url("../img/clouds.png") no-repeat fixed center top;
   border-bottom: 1px solid #DDD;
@@ -4188,10 +4196,10 @@ header[role="header"] {
     height: 300px;
     background: transparent url("../img/mountains.png") no-repeat scroll center bottom; }
   header[role="header"] .title {
-    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    color: #BBB;
     font-weight: 100;
     letter-spacing: 0.1em;
-    color: #BBB; }
+    text-transform: uppercase; }
   header[role="header"] .tagline {
     color: #666; }
   header[role="header"] nav {
@@ -4214,16 +4222,34 @@ header[role="header"] {
 .post .post-meta {
   color: #555555;
   font-weight: bold; }
-.post .post-content p {
+.post .post-content p,
+.post .post-content section,
+.post .post-content aside {
   font-size: 1.25em; }
-  .post .post-content p img {
+  .post .post-content p img,
+  .post .post-content section img,
+  .post .post-content aside img {
     display: block;
     margin: 0 auto; }
+  .post .post-content p a img,
+  .post .post-content section a img,
+  .post .post-content aside a img {
+    border: 1px solid #DDf;
+    padding: 3px; }
+    .post .post-content p a img:hover,
+    .post .post-content section a img:hover,
+    .post .post-content aside a img:hover {
+      background-color: #DDf; }
+.post .map-box {
+  text-align: center; }
 
 #home article.post {
   border-bottom: 1px solid #DDD;
   margin-bottom: 3em;
   padding-bottom: 1.5em; }
+
+#panorama img {
+  max-width: inherit; }
 
 footer[role="footer"] {
   background-color: #DFDFDF;
