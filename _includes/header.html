@@ -8,9 +8,7 @@
         </div>
         <nav class="small-12 column">
             <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/contact">Contact</a></li>
+                {% unless page.url == '/index.html' %}<li><a href="/">Home</a></li>{% endunless %}
             </ul>
         </nav>
     </div>

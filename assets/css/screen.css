@@ -4194,7 +4194,11 @@ header[role="header"] {
     left: 0;
     width: 100%;
     height: 300px;
-    background: transparent url("../img/mountains.png") no-repeat scroll center bottom; }
+    background: transparent url("../img/mountains.png") no-repeat scroll center bottom;
+    z-index: 1; }
+  header[role="header"] > .row {
+    position: relative;
+    z-index: 2; }
   header[role="header"] .title {
     color: #BBB;
     font-weight: 100;
@@ -4202,8 +4206,6 @@ header[role="header"] {
     text-transform: uppercase; }
   header[role="header"] .tagline {
     color: #666; }
-  header[role="header"] nav {
-    display: none; }
   header[role="header"] nav li {
     display: inline-block;
     list-style: none;
@@ -4217,8 +4219,9 @@ header[role="header"] {
     position: absolute;
     bottom: 0;
     left: -3px;
+    color: white;
     margin: 0;
-    color: white; }
+    text-shadow: 1px 0 1px rgba(0, 0, 0, 0.5); }
 .post .post-meta {
   color: #555555;
   font-weight: bold; }
