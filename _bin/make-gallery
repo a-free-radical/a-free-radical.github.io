@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+basePath=/Users/drew/www/freeradical.github.io/
+relativePath=images/
+
+footnotes=()
+i=0
+
+targetpost=$2
+
+for img in $basePath$relativePath$1; do
+    img=${img##*/}
+    i=$((i+1))
+    name=${img%%.*}
+    echo "![${name##*[0-9]_}][$i]" >> $targetpost
+    footnotes+="[$i]: $relativePath$img\n"
+done
+
+echo -e "${footnotes[*]}" >> $targetpost
