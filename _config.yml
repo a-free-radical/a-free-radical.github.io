@@ -9,7 +9,8 @@ author:
   github: dhornbein
   twitter: hornbein
 
-production_url: http://freeradical.biz
+production_url: http://freeradical.biz/
+rss_path: rss.xml
 
 page:
   layout: default
