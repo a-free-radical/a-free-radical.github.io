@@ -3,7 +3,6 @@ layout: post
 title: But on the other side it didn't say nothing
 summary:
 status: draft
-categories: journal
 location: Blacksburg, VA, USA
 feature: /images/IMG_20131025_trespass.jpg
 ---

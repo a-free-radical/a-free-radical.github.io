@@ -3,7 +3,6 @@ layout: post
 title: In the Cellar
 summary:
 status: published
-categories: journal
 location: Blacksburg, VA, USA
 feature: images/IMG_20131027_dogalive.jpg
 ---

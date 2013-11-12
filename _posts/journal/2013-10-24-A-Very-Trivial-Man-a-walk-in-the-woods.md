@@ -2,7 +2,6 @@
 layout: post
 title: A Very Trivial Man; a walks in the woods
 summary:
-categories: journal
 location: Blacksburg, VA, USA
 feature: /images/PANO_20131023_woods.jpg
 ---

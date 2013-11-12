@@ -2,7 +2,6 @@
 layout: post
 title:  Late busses and early mornings
 date:   2013-10-21 09:18:00
-categories: journal
 location: Blacksburg, VA, USA
 feature: /images/IMG_20131021_nightandday.png
 ---

@@ -3,7 +3,6 @@ layout: post
 title: Poverty Creek and the Pond
 summary:
 status: draft
-categories: journal
 location: Blacksburg, VA, USA
 feature: images/PANO_20131101_pond.jpg
 ---

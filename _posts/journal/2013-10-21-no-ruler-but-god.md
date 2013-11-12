@@ -2,7 +2,6 @@
 layout: post
 title:  No Ruler but god
 date:   2013-10-21 20:25:00
-categories: journal
 location: Blacksburg, VA, USA
 feature: /images/IMG_20131021_fox.jpg
 ---
