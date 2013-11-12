@@ -4243,6 +4243,9 @@ header[role="header"] {
     .post .post-content section a img:hover,
     .post .post-content aside a img:hover {
       background-color: #DDf; }
+.post .post-content img[alt^='small'] {
+  width: 50%;
+  margin: 0 auto; }
 .post .map-box {
   text-align: center; }
 
