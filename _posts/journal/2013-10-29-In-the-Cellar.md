@@ -4,7 +4,7 @@ title: In the Cellar
 summary:
 status: published
 location: Blacksburg, VA, USA
-feature: images/IMG_20131027_dogalive.jpg
+feature: /images/IMG_20131027_dogalive.jpg
 ---
 
 Sitting in the Cellar listening to jazz over rum and pizza.

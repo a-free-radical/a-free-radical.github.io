@@ -4,7 +4,7 @@ title: Poverty Creek and the Pond
 summary:
 status: draft
 location: Blacksburg, VA, USA
-feature: images/PANO_20131101_pond.jpg
+feature: /images/PANO_20131101_pond.jpg
 ---
 
 I went for a long hike today. Down the poverty creek trail.
